@@ -1,0 +1,294 @@
+<!-- Start of html file declaring it as so -->
+<!DOCTYPE html>
+<!--opening tag-->
+<html lang=""en>
+
+    <head> <!-- nonvisible information/metadata-->
+        <meta charset="UTF-8">
+        <!--Link to the CSS stylesheet-->
+        <link rel="stylesheet" href="websiteStyle.css">
+
+        <title>Laura Elizabeth Moralez's Website</title>
+        <!-- account for other platforms, reformat/resize-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     
+    </head> <!-- end of head-->
+
+
+    <body> <!-- visible content-->
+        <!--Navigation Bar-->
+        <nav>
+        <div class="topnav">
+            <h1>Laura Elizabeth Moralez</h1>
+            </div>
+            <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#involvement">Involvement</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+        </nav>
+
+    <!--Scroll to top button-->
+    <div class="scroll-container">
+        <a href="#top"><u>To Top</u></a>
+    </div>
+
+    <style>
+        body{
+            position: relative;
+        }
+
+        .section{
+            height: 100vh;
+            background: #dedede;
+            margin-bottom: 20px;
+            font-size: 100px;
+        }
+
+        .scroll-container{
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+        }
+
+        .scroll-container:before{
+            content: " ";
+            display: block;
+            height: 100vh;
+            pointer-events: none;
+        }
+
+        .scroll-container a{
+            position: sticky;
+            top: 88vh;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+    </style>
+<!--End of to top button-->
+
+        <!--Main page heading-->
+        <section id="about">
+        <h1 class="text">I'm Elizabeth Moralez</h1>
+
+        <!--First paragraph-->
+        <p class = "text">I'm currently a Junior Computer Science major at St. Mary's University.
+            <br> <!-- break for new line-->
+           I am pursuing a minor in Mathematic and have a current focus in game development.
+            <br>
+           I am curious about many topics and am always welcoming a new challenge or chance to learn something new!
+            <br>
+           Last updated: May 24, 2023
+        </p>
+        <hr>
+
+        <!--second header section-->
+        <h1 class="text">Contact me!</h1>
+        <p class ="text">
+            <a href="https://www.linkedin.com/in/laura-moralez-842008199/">LinkedIn</a>
+            <a href="mailto:elizabeth.moralez2003@gmail.com">Email me!</a>
+            <a href="https://github.com/emoralez19">GitHub</a>
+        </p>
+        <hr>
+
+        <!--About me-->
+        <h1 class="text">About me!</h1>
+       
+        <p class="text"> 
+            I have been passionate about programming since I was first introduced to it in middle
+            school through various robotics camps and my participation in the UTSA Prefreshman Engineering Program program.
+            Since coming to St. Mary's, I have made sure that I am involved on campus through clubs and organizations.
+            I am currently the Vice President for the Infinite Loops computer science club, a team manager
+            for our Esports program, and a member of the Esports broadcast team.
+            <br>
+            <br>
+            Through these positions I help organize activites for our members and volunteer at various events throughout the year.
+            With my passion for programming, I worked as a tech assistant for the SET tech Camps St. Mary's holds in the summer 
+            and got to help cultivate an interest in computer science in high school students local to San Antonio.
+            It is very important to me to give back to my community and I hope to continue helping others in my career.
+        </p>
+        <img src="headshot.jpg" width="300" height="400">
+    </div>
+</section> <!--End of about section-->
+
+<!--Beginning of resume section-->
+<hr>
+<section id="resume">
+     <!--Resume info-->
+     <h1 class="text">My Resume</h1>
+     <!--Education-->
+     <h2 class="text">Education</h2>
+     <h3 class="text">Bachelor of Science in Computer Science</h3>
+     <p class="text">
+         with a minor in Mathematics and a focus in game development
+         <br> 
+         <em>St. Mary's University, San Antonio, Texas</em>
+         <br>
+         Expected graduation: May 2025
+         <br>
+         GPA: 3.66
+         <br>
+        <u> Relevant coursework: </u>Introduction to C programming, Data Structures,
+         Algorithms, Object-Oriented Programming I & II, Computer Architecture
+     </p>
+     <br>
+     <!--Skills-->
+     <h2 class = "text">Skills</h2>
+     <p class="text">
+        <strong> Programming languages:</strong> proficient in C, proficient in C++,
+         proficient in Java, basic experience with Python, basic knowledge of html 
+         <br>
+        <strong> Other:</strong> vMix, time management, colaboration, adaptability, critical thinking
+     </p>
+     <br>
+     <!--Work Experience-->
+     <h2 class="text">Work Experience</h2>
+     <!--Broadcast-->
+     <h3 class="text">Broadcast Team Member</h3>
+     <h4 class="text"><em>St. Mary's University Esports, San Antonio, Texas &emsp; August 2022-Present</em></h4>
+     <p class="text">
+         Collaborate with other team members to ensure a smooth run of show for live broadcasts.
+         Assist in various areas of the broadcast operation by assisting with the set up and breakdown
+         of equipment. Learn how to operate various positions of the operation while working
+         in a fast-paced environment.
+     </p>
+     <br>
+     <!--Law Graduation Spring 2023 Producer-->
+     <h3 class="text">Executive Producer</h3>
+     <h4 class ="text"><em>St. Mary's University, San Antonio, Texas &emsp; May 2023</em></h4>
+     <p class="text">
+         Produced live-stream broadcast for St. Mary's University Law School commencement
+         to an audience of spectators and remote viewers. Collaborated with technical director and broadcast
+         engineer to execute the live-streamed show according to run of show and university 
+         communication department. Utilized vMix to incorporate commencement graphics, overlays,
+         and multiple camera views.
+     </p>
+     <br>
+     <!--Bill Millers-->
+     <h3 class="text">Cashier</h3>
+     <h4 class="text"><em>Bill Miller BBQ, San Antonio, Texas &emsp; April 2021-August 2022</em></h4>
+     <p class="text">
+         Responsible for basic routine tasks and procedures in providing excellent customers service
+         in taking orders and payments. Responsible for delivering fast, friendly, and quality service
+         while multi-tasking with customers. Assisted in efficiently cleaning and maintaining a cleaning
+         and safe working environment. Aided other areas of the operation as needed.
+     </p>
+     <br>
+     <!--Summer Tech Assistant-->
+     <h3 class="text">Tech Assistant</h3>
+     <h4 class="text"><em>St. Mary's University, San Antonio, Texas &emsp; June 2022-July 2022</em></h4>
+     <p class="text">
+         Assisted university professors with the teaching of foundational technology knowledge, mentored
+         students individually with programming projects using Java, Game Maker, and Python. Led
+         the students on tours of the St. Mary's campus showcasing the programs, buildings, and history as well
+         as providing an insight about student life on campus.
+     </p>
+     <hr>
+</section>
+     <!--End resume section-->
+
+<!--Involvement section-->
+<section id="involvement">
+     <!--My Involvement-->
+ <h1 class="text">My Involvement</h4>
+    <!--Esports Manager-->
+    <h3 class="text">Esports Rocket League Team Manager</h3>
+    <p class="text">
+        As a manager I network with teams from other schools to schedule scrimmages
+        and monitor the course of official matches. I collaborate with other managers within
+        the program to effectively schedule events. And I am responsible for keeping
+        an organized record of team statistics and schedules.
+        <br>
+        <a href="https://rattlerathletics.com/sports/esports/roster">Esports roster page</a>
+    </p>
+    <!--Esports headshot-->
+    <img id="headshot" alt="Esports Headshot"
+    src="esports.jpg">
+    <!--Second picture to the side-->
+    <img src= "article.png" width="400" height="350">
+    <br>
+<!--Broadcast Team-->
+    <h3 class="text">Esports broadcast team</h3>
+    <p class="text">
+        Being a part of the broadcast team I get to help organize and run our
+        weekly twitch streams as well as a few community events. I work with a team
+        of other students to ensure a smooth run of show for the live broadcasts and learn
+        how to operate different areas of the operation.
+        <br>
+        <a href="https://www.twitch.tv/stmuesports">Esports twitch channel</a>
+        <br>
+        <img id="headshot" alt="Broadcast Team"
+        src="broadcast.jpg">
+        <!--Second image to the side-->
+        <img src= "casting.jpg" width="300" height="200">
+    </p>
+<!--Current Infinite Loops Position-->
+    <h3 class="text">Infinite Loops Vice President</h3>
+    <p class="text">
+        As the Vice President I assist the President of the club in planning and organizing
+        events and activities for the club. I collaborate with other members about ideas and projects.
+        I conduct club and officer meetings when the President is unable to. I also use my 
+        knowledge as prior Secretary of the club to assist other officers with their duties as well as
+        assist the President on any extra projects they would like to take on for the year.
+    </p>
+        <!--Infinite Loops Logo-->
+        <img id="headshot" alt="IFL Logo"
+        src="ifl.jpeg">
+        <br>
+        <a href="https://www.instagram.com/stmu_infiniteloops/?igshid=YmMyMTA2M2Y%3D">Infinite Loops Instagram</a>
+
+    <hr>
+</section>
+<!--End of involvement section-->
+
+<!--Projects section-->
+<section id="projects">
+      <!--Projects-->
+      <h1 class="text">Projects</h4>
+        <!--Painter App OOP 2 SceneBuilder & Java-->
+        <h3 class="text">Painter App</h3>
+        <h4 class="text"><em>Language: Java</em></h4>
+        <img id="headshot" alt="Output"
+            src="painterOutput.png">
+            <br>
+        <p class="text">
+            A Java program that utilizes a GUI made in SceneBuilder to run a simple painting app 
+            <br>
+            <a href="https://github.com/emoralez19/Painter-App">Project GitHub</a>
+        </p>
+        <br>
+
+<!--8 puzzle solver with kylee fall 2022, Algorithms-->
+    <h3 class="text">8 Puzzle Solver</h3>
+    <h4 class="text"><em>Language: C</em></h2>
+    <img id="headshot" alt="Output"
+        src="puzzleSolver.png">
+        <br>
+    <p class="text">
+        A program where the user chooses a playable 8 puzzle board for the computer to solve
+        <br>
+        <a href="https://github.com/emoralez19/8-Puzzle-Solver">Project GitHub</a>
+    </p>
+    <br>
+<!--Simple Bank App, OOP1 Fall 2022-->
+    <h3 class="text">Simple Bank App</h3>
+    <h4 class="text"><em>Language: C++</em></h4>
+    <img id="headshot" alt="Output"
+        src="bankOutput.jpeg">
+        <br>
+    <p class="text">
+        Utilizes three header files in order to create a simple banking app that simulates a simple interface
+        to update the balance of a savings or checking account after depositing and withdrawing within it
+        <br>
+        <a href="https://github.com/emoralez19/Simple-Bank-App">Project GitHub</a>
+    </p>
+</section>
+<!--End of projects-->
+
+    </body> <!-- end of body-->
+</html>
+<!--ending line to close the doc --> 
